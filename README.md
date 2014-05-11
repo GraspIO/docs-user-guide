@@ -1,14 +1,14 @@
-![Grasp](img/GraspIcon.png)
+# Grasp Users Guide
 
-# Grasp User Guide
+<img src="img/GraspIcon.png" style="float: left; padding-right: 20px"></img>
 
-Grasp is a platform for managing complex structured content, such as configuration, preferences, business logic or even code, but without forcing users to become programmers.
+Grasp is a platform for managing complex structured content, such as configuration, preferences, business logic or even code, without forcing users to learn programming.
 
 It provides tools, help and guardrails that lead you through the editing process, so that you can easily author valid documents, or *models*, in a form that is expected by the systems and applications under your control.
 
 Depending on your role, you may or may not see all capabilities described in the rest of this guide.
 
-If you are interested in designing your own model types (*grammars*) and *formats*, or integrating Grasp with external systems, you should also take a look at the [*Grasp Developer Guide*](. Not finished yet).
+If you are interested in designing your own model types (*grammars*) and *formats*, or integrating Grasp with external systems, you should also take a look at the [*Developers Guide*](../DevelopersGuide).
 
 ## How Grasp Compares to other Tools
 
