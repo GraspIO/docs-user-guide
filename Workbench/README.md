@@ -1,9 +1,11 @@
 # Workbench
 
-Workbench is both a web page and your private workspace through which you work with a specific Grasp repository.
+Workbench is a web application through which you work with your private workspace for a Grasp repository.
 
-Workbench opens when you click on a repository link from your dashboard or enter repository's URL in a browser. Depending on the URL, it can be used not only to open a repository, but also a specific model in it, and even scroll directly to some element after model is opened.
+It opens when you click on a repository link from your dashboard or enter repository URL in a browser. The workspace for it is created automatically when you open some repository for the first time.
 
-The actual content of the workbench screen can be different depending on your user role in this repository and layout specified by the repository admin for this role. The main parts are the explorer panel and the editor, which in turn contains several sub-panels.
+The workbench typically contains one or more central views, such as document editor and preview of generated results, surrounded by panels that provide supporting functions: repository explorer, alerts and so on.
 
-The workbench state is persisted on the Grasp server, and you can open it from any computer without losing your changes.
+The workspace state is persisted on the server, so you can open your workbench later from any place without losing your changes.
+
+It remembers the last document that you worked with and opens it automatically, unless you provide an ID of a different model in the URL.

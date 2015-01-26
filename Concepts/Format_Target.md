@@ -1,12 +1,12 @@
 # Format and Target
 
-Models store your information in an abstract structured form. However, in many cases it is not the most convenient way to see and edit it, and it is often not the form in which your computer systems and applications understand.
-
-That's where *formats* come in the play. They are special models (yes!) that transform information stored in the model in a form that is easy for your and for computers to work with.
+Format is a special kind of model that transforms information stored in a structured document into a user-readable ot machine-readable form.
 
 There are two types of formats:
 
-* *Editor* format describes how you want to see the model on the screen when you edit it - e.g. as a form, or text, or tree of elements, or perhaps a diagram.
-* *Output*, or *generator*, format describes how to transform your model into something that computers can understand - e.g. configuration file or executable script.
+* Editor format describes how to present the document in an editor.
+* Output format, also called generator, describes how to transform your model into something that computers can understand, i.e. turn it into a code.
 
-For the same model (or, rather, its grammar) a developer can implement several alternative ways of representing it in an editor or generating its output. For example, one of your systems may need this model in a form of a data document, while another one might prefer a program that it can run. Such outputs generated from the model with some output format are called *targets*.
+Same model type can have multiple alternative ways of representing it in an editor and generating its output. Each of them will have its own format.
+
+The results of code generation from a model by an output format are called targets. They can be saved locally or instantly delivered to the applications that need them.

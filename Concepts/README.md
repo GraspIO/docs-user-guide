@@ -1,7 +1,9 @@
-# Main Concepts
+# Grasp Concepts
 
-Grasp can be compared to a content management system or a database, depending on what you are more familiar with.
+Grasp can be viewed as a content management system, language workbench, or even a document-oriented database, depending on what concepts you are more familiar with.
 
-It stores your content in structured documents that are called *models*, and groups them together into *repositories* which you can access via your own private *workbench*. Model structure is described by its *grammar* and is shown to you or delivered to your target system in a desired form by applying a *format*.
+It stores your content in structured grammar-driven documents that are called models, and groups them together into repositories accessible via your own private web-based workbench.
+
+Model content can be presented to you on the screen or deployed into your target applications in various forms by applying a specific editor or generator format.
 
 

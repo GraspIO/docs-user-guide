@@ -1,45 +1,53 @@
 # Workbench Organization
 
-Workbench consists of the explorer and the editor:
+Workbench consists of one or more main views, such as model editor, surrounded by panels.
 
 [![Workbench](../img/Workbench.png)](img/Workbench.png)
 
-You can drag the divider between workbench sections to resize them. You can also double-click on the divider to minimize/restore one of the sections.
+Panels are organized into panel bars. If minimized, they will temporarily expand when you hover mouse over or click on them. You can lock them in place by clicking on their toolbar or expand them even more by double-clicking on it.
+
+Individual panels can be activated by clicking on their toggles in the panel bar.
+
+The main view usually shows the document you have opened for editing.
+
+Additional views, when applicable, can be added by clicking on their toggles in the right top corner on the main toolbar. The toolbar on the top shows the content related to the view that has focus.
+
 
 ## Explorer
 
-Workbench explorer is a panel in which you can see a tree with a list of documents (i.e. models) in your repository, create models or open them for editing.
+Explorer is a panel on the left side that shows contents of your repository and has buttons at the bottom for creating a new document and for simultaneously publishing/reverting changes made to multiple documents.
 
-The explorer tree can organize your models in several ways, accessible via *Organize* menu at the top right corner of the panel:
+By using the *Organize* menu in the Explorer panel you can organize your repository view in different ways:
 
-* *Group by grammars* - show all models created from the same grammar in one folder, using grammar's name as a folder name.
-* *Group by tags* - create a subfolder for each model tag (see next chapter). So, for example, if model has tags `foo`, `bar`, `baz`, then the explorer tree will create a chain of folders `foo/bar/baz` and place your model into it. This view option is convenient when you want to group different models by some common principle, e.g. by a business function that they together implement.
-
-Each model name that you see in the explorer tree has some formatting applied so that you can easily check its type or status.
+* *Group by grammars* - groups all documents created from the same grammar into one folder, using grammar name as a name of the folder.
+* *Group by tags* - uses document tags as folder/subfolder names. For example, if a document has tags `foo`, `bar`, `baz`, the explorer tree will shown a chain of nested folders `foo/bar/baz`.
 
 To the left of the model name you can see an icon that depicts its type:
 
-* **G** - for grammars
-* **F** - for formats
-* **M** - for all other model types
+- **G** - for grammars;
+- **F** - for formats;
+- **M** - for all other model types.
 
-If you have made changes to the model, so that workbench now contains a private copy of it, the model name will be shown in _italics_. After you publish your changes back to the master repository, the name styling will change to regular font.
+Names of new and locally modified documents are shown in _italics_ until you publish them from your private workspace into the main repository by clicking on the checkbox in the explorer or on the toolbar.
 
-Immediately after making some model edits you may notice that an asterisk `*` is briefly added to the model name to indicate that this model is being saved on the server. Once this is done, the asterisk will disappear. Sometimes there may be server communication problems and the asterisk will stay for longer.
+While your latest changes are auto-saved to the workspace, an indicator `*` is briefly added to the model name to indicate that this model is being saved on the server. Sometimes there may be server communication problems and the indicator may stay for longer than usual.
 
-## Model Editor
+## Views
 
-Next to the workbench explorer is usually a model editor, showing one of the models in your repository or the configuration model of the repository itself.
+There are several content view types in the workbench. They are activated by the view toggle buttons on the main toolbar:
 
-The editor is described in the next chapter.
+- **M** is for regular documents (models);
+- **G** is for grammars;
+- **F** is for formats (editor and generator);
+- **R** is for viewing generated results.
 
----
+All of these views are related to each other. For example, when editing a grammar, the model and format views only show documents related to that grammar. Similarly, the result view shows only results generated from the model opened in the **M** view.
 
+## Other Panels
 
-Model name that is shown in italics indicates:
-- [x] Unpublished changes
-- [ ] Unsaved changes
+In addition to the Explorer and content views there are several other panel types in the workbench. They can be activated by clicking on the panel toggle button in the panel bar.
 
-> Italics indicate that the model changes were saved to your workspace but are not published to the master repository yet.
-
----
+- *Alerts* shows validation alerts for the currently active document. If you click on an alert the corresponding element in the document editor will be highlighted.
+- *Discuss* shows a discussion panel where you can share comments for the currently opened document.
+- *Table of Contents* provides a quick way to navigate through the document.
+- *Console* shows code generation-related errors and other messages.

@@ -1,14 +1,3 @@
-# Editor Panels
-
-## Properties Panel
-
-**Properties** tab is where you can edit model name, tags and other meta-data.
-
-It uses the same structured editor as for the main model. Some fields such as model name are required and are always shown. Other fields, such as description and tags, are optional and will not be visible until you click on the panel and start editing them.
-
-![Properties](../img/PropertiesTab.png)
-
-Changes made to the model properties are saved automatically and are checked into the repository when you publish the model.
 
 ## Alerts Panel
 

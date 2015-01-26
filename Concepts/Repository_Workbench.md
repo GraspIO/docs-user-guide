@@ -1,9 +1,7 @@
 # Repository and Workbench
 
-You can organize a group of related models, grammars, etc. into a *repository*. With Grasp you can create multiple repositories to group content for different needs. You can also connect to repositories created by other users, as long as you have sufficient permissions to access them.
+A group of related models, grammars and formats is typically organized into a repository. You can create multiple repositories for different needs or connect to repositories created by other users, or link them into your own repository.
 
-For every repository that you create or connect to Grasp will create a private workspace that is called *workbench*. Workbench will store editing changes that you've made to the models until you are ready to *publish* them so that everyone with access to the same repository can see your changes.
+When you open a repository in Grasp, it will create a private workspace for you that is called workbench. Workbench stores changes that you've made until you are ready to publish them into the main repository to create a new version. Until that nobody will see your local modifications.
 
-Sometimes all you have to do with the repository is edit a single Grasp model that you are responsible for (e.g. your personal preferences). All you would see in such case is an editor form embedded into some web page, so you might not even think of it as a workbench. In other cases a full workbench with ability to explore repository, create and delete model could be exposed to you.
-
-There can be multiple versions of the same model in the repository. Every time when you make changes and publish them from your workbench into the repository a new model version is created in it. Also, a new version of each target output is automatically generated at the same time and can be instantly delivered to your computer systems and applications.
+Workbench can show a different perspective of the repository depending on your role and the type of the document you work with. Sometimes you will see a repository explorer and other views and panels, and sometimes only a single editor and generated result will be shown.
