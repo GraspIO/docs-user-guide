@@ -2,11 +2,10 @@
 
 * [Introduction](README.md)
 * [Concepts](Concepts/README.md)
-   * [Model (Document)](Concepts/Model.md)
-   * [Grammar](Concepts/Grammar.md)
-   * [Format and Target](Concepts/Format_Target.md)
+   * [Document Model](Concepts/Model.md)
    * [Repository and Workbench](Concepts/Repository_Workbench.md)
    * [User and Team](Concepts/users_and_teams.md)
+   * [Editor Recipe](Concepts/editor_recipe.md)
 * [Home Page](Dashboard.md)
    * [User Home](user_home.md)
    * [Teams and Repositories](team_home.md)
@@ -17,5 +16,5 @@
    * [Toolbar](Editor/Toolbar.md)
    * [Contextual Operations](Editor/ContextMenu.md)
    * [Structured Editor](Editor/StructuredEditor.md)
-   * [Result Viewer](Editor/result_generation_debugger.md)
+   * [Result Viewer](Editor/ResultViewer.md)
 

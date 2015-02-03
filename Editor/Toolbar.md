@@ -6,7 +6,7 @@ Toolbar provides quick access to frequently used commands.
 
 1. *Revert* permanently reverts all your editing changes and replaces them with the previous version of the document from the repository.
 2. *Undo* reverts the results of the last edit operation. You can also press **Ctrl**+**Z** (**&#8984;**+**Z**).
-3. *Redo* applies the most recent undone changes once again. You can also press **Ctrl**+**Y** (**&#8984;**+**Y**).
+3. *Redo* applies the most recent undone changes once again. You can also press ctrl-x or.
 4. *Publish* commits local changes made in the workbench into the main repository, where they can be visible to other users.
 5. *Cut* moves currently selected elements into Grasp's clipboard and deletes them from the model. You can also press **Ctrl**+**X** (**&#8984;**+**X**).
 6. *Copy* copies currently selected elements to the clipboard. You can also press **Ctrl**+**C** (**&#8984;**+**C**).
